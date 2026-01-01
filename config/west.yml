@@ -8,17 +8,20 @@ manifest:
       url-base: https://github.com/petejohanson/
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: geeksville
-      url-base: https://github.com/geeksville
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: cirque-input-module
-      remote: geeksville
-      revision: toucan
+      remote: petejohanson
+      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: v0.3
+      revision: main
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: main
   self:
     path: config
