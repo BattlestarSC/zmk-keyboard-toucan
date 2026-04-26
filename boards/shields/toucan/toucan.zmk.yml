@@ -7,7 +7,6 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
   - display
-  - studio
 siblings:
   - toucan_left
   - toucan_right
