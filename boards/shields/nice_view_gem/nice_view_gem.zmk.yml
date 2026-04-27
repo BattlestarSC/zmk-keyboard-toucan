@@ -1,7 +1,8 @@
 file_format: "1"
-id: toucan_pet
-name: Toucan Pet
+id: nice_view_gem
+name: nice!view_gem
 type: shield
+url: https://nicekeyboards.com/nice-view
 requires: [nice_view_header]
 features:
   - display

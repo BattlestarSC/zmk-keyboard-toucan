@@ -1,2 +1,0 @@
-config SHIELD_TOUCAN_PET
-    def_bool $(shields_list_contains,toucan_pet)
